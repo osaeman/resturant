@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    to right,
+    rgba(126, 153, 172, 0.6),
+    rgb(86, 114, 136)
+  );
+}
+
+.main-container {
+  width: 94%;
+  height: 1200px;
+  background-color: rgb(250, 250, 250);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 3px 5px rgba(59, 58, 58, 0.3);
+}
+
+.top-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.top-bar-left {
+  align-self: center;
+  margin-left: 60px;
+}
+.top-bar-left h3 {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+.top-bar-left span {
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+}
+
+.top-bar-right {
+  background-color: black;
+  width: 36px;
+  height: 45px;
+  align-self: center;
+  display: flex;
+  border-radius: 8px 2px 27px 8px;
+  margin-right: 60px;
+}
+
+.top-bar-right i {
+  font-size: 18px;
+  color: white;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+.hero-section {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.hero-section-left h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.view-menu {
+  width: 180px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 15px 15px 1px 15px;
+  box-shadow: 3px 5px 3px 5px rgba(167, 167, 167, 0.4);
+}
+
+.view-menu div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.view-menu div i {
+  align-self: center;
+}
+
+.food-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.food-icons div {
+  margin-right: 30px;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 4px rgba(92, 91, 91, 0.3);
+}
+
+.food-icons div i {
+  font-size: 27px;
+  align-self: center;
+}
+
+.hero-section-left {
+  width: 40%;
+}
+
+.a {
+  background-image: url("/images/alex-lvrs-zat1dlziZls-unsplash_1_-removebg-preview.png");
+  background-size: cover;
+  background-position-y: 70%;
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  top: 0;
+  right: 0;
+}
+
+.banner-section {
+  margin-top: 340px;
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  flex-direction: row;
+}
+
+.banner-section .item-1,
+.banner-section .item-2 {
+  background-color: white;
+  width: 250px;
+  height: 280px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 17px 4px rgba(92, 91, 91, 0.3);
+  position: relative;
+}
+
+.item-1 .item-1-image {
+  background-image: url("/images/gregor-moser-QGIJUqnEpCY-unsplash.jpg");
+  width: 210px;
+  height: 220px;
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 140px;
+  left: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 17px 4px rgba(92, 91, 91, 0.3);
+}
+
+.item-1-content,
+.item-2-content {
+  margin-top: 170px;
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.item-1-content h2,
+.item-2-content h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.item-1-content div,
+.item-2-content div {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(92, 91, 91, 0.3);
+  border-radius: 100%;
+}
+
+.item-1-content div i,
+.item-2-content div i {
+  align-self: center;
+  font-size: 20px;
+}
+
+.item-1 p,
+.item-2 p {
+  margin: 0;
+  margin-left: 25px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.item-1 span,
+.item-2 span {
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.item-2 .item-2-image {
+  background-image: url("/images/monika-grabkowska-ITixmXwUsJY-unsplash.jpg");
+  width: 210px;
+  height: 220px;
+  background-size: 135%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: 140px;
+  left: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 17px 4px rgba(92, 91, 91, 0.3);
+}
+
+.item-2 {
+  margin-left: 40px;
+}
+
+.item-3 {
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 50px;
+  margin-top: -110px;
+}
+
+.item-3 h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item-3 p {
+  font-size: 14px;
+  line-height: 2;
+}
