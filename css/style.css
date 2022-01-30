@@ -172,8 +172,8 @@ body {
   display: flex;
   width: 210px;
   justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 23px;
+  margin-right: 23px;
 }
 
 .item-1-content h2,
@@ -202,14 +202,15 @@ body {
 .item-1 p,
 .item-2 p {
   margin: 0;
-  margin-left: 22px;
+  margin-left: 23px;
   font-size: 15px;
   margin-bottom: 8px;
+  margin-top:-5px;
 }
 
 .item-1 span,
 .item-2 span {
-  margin-left: 22px;
+  margin-left: 23px;
   font-size: 15px;
   font-weight: bold;
 }
